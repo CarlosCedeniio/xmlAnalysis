@@ -1,0 +1,11 @@
+server:
+  port: 8084
+spring:
+  data:
+    mongodb:
+      database: Investigacion
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
